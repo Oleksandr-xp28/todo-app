@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Intro">
+      <UniqueIdentifier>{8fbd9a3f-f1a8-49bb-93a7-a416553e42d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Home">
+      <UniqueIdentifier>{cb090547-caaa-4604-96e7-8352003e1396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Intro\Presentation">
+      <UniqueIdentifier>{d16ade71-2b30-498a-a3a0-f09f175e2895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Intro\Domain">
+      <UniqueIdentifier>{856368eb-1aef-489a-9173-a285548fe89c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Intro\Data">
+      <UniqueIdentifier>{1b57d949-6d7c-4518-95cc-38feedb8094d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Home\Presentation">
+      <UniqueIdentifier>{d68829cf-2613-45ce-b593-e3b5f7b7c878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Home\Doamin">
+      <UniqueIdentifier>{d051441b-d031-4537-84a1-1e001acb7c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Home\Data">
+      <UniqueIdentifier>{5d163055-f22e-4a4f-8b25-869dfa4fe19f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal">
+      <UniqueIdentifier>{a5e62dc4-cad5-4957-aafe-8c2ceec7ea5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{afca6da1-f0dc-4bb5-a565-88af2360ad10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Models">
+      <UniqueIdentifier>{47f14835-6b50-448d-8273-53dc41487608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Models\Login">
+      <UniqueIdentifier>{82e0529c-1af1-4ada-b8b9-c79a60b479c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="intro_screen.h">
+      <Filter>Intro\Presentation</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Core\Models\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="intro_file_work.h">
+      <Filter>Intro\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="intro_screen_provider.h">
+      <Filter>Intro\Domain</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
